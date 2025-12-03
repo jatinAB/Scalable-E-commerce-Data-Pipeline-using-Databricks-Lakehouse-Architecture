@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Databricks local files
+*.dbc
+.db/
+
+# Environment files
+.env
+*.env
+.env.* 
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Data files (optional – if data should not be uploaded)
+data/raw/
+data/intermediate/
+data/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PySpark temp files
+derby.log
+metastore_db/
